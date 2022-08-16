@@ -1,0 +1,31 @@
+body{
+    background: rgb(170, 223, 242);
+}
+.search {
+  border: 2px solid black;
+  display: block;
+  width: 230px;
+  height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+}
+
+.buton-submit {
+  margin-left: 70px;
+  width: 100px;
+  height: 30px;
+}
+
+.forecast{
+    width: 120vw;
+    display: flex;
+    list-style: none;
+    gap: 15%;
+}
+​
+.city-name{
+    text-align: center;
+}
