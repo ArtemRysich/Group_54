@@ -1,0 +1,11 @@
+{{#each this}}
+<li>
+    <h2>{{name}}</h2>
+    <p>{{race}}</p>
+    <p>{{gender}}</p>
+    {{#if birth}}
+    <p>{{birth}}</p>
+    {{/if}}
+    <a href="{{wikiUrl}}">Link</a>
+</li>
+{{/each}}
